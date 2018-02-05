@@ -43,7 +43,7 @@ docker run --network=mynet -d -p 8888:8888 jupyter/datascience-notebook start-no
 * загрузить тестовый ноутбук и запустить все блоки
 * проверить данные в [cloudant](localhost:8080/dashboard.html)
 ## Лабораторная 2. Аналитика в облаке
-* Зайти на сайт bluemix.net
+* Зайти на сайт bluemix.net (все действия выполняются в region - `us south` и cloud foundry space - `dev`)
 * Активировать код 
 
 `Manage` -> `Billing and Usage` -> `Billing` -> `Billing` -> `Feature(Promo) Codes` -> `Apply code`
