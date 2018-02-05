@@ -1,0 +1,9 @@
+---
+applications:
+- name: ipython
+  memory: 1G
+  instances: 1
+  host: ipython-${random-word}
+  domain: mybluemix.net
+  path: .
+  buildpack: https://github.com/cloudfoundry/python-buildpack.git
