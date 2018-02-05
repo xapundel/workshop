@@ -55,7 +55,7 @@ docker run --network=mynet -d -p 8888:8888 jupyter/datascience-notebook start-no
 * Следующие команды позволяют взаимодействовать с IBM Cloud из консоли
 ```
 cd workshop/Bluemix-Jupyter-Notebook
-#Авторизуйтесь введя свою почту, пароль к аккаунту, выберите название аккаунта
+#Авторизуйтесь введя свою почту, пароль к аккаунту, выберите название аккаунта. Если будет спрошен API-enpoint то укажите `us-south - https://api.ng.bluemix.net`
 bx login   
 #Укажите неймспейс и название организации используя
 bx target -o <почта> -s dev
